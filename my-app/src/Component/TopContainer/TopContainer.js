@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {TopContainerStyle,BannerGroup,ReadMoreButton,TextHeader1,TextDetail1,Image,GroupLeft,GroupRight} from '../../Styles/TopContainer.styled';
 import Header from '../Header/Header';
 import {BsArrowRight} from 'react-icons/bs';
+import PageImage from '../../image/Group 1948@2x.png'
 
 
 
@@ -17,7 +18,7 @@ const TopContainer = () =>{
                     <ReadMoreButton>Read more <BsArrowRight/></ReadMoreButton>
                 </GroupLeft>
                 <GroupRight>
-                    <Image></Image>
+                    <img src={PageImage}></img>
                 </GroupRight>
             </BannerGroup>
         </TopContainerStyle>

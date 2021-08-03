@@ -5,25 +5,25 @@ export const TopContainerStyle = styled.div`
     background: linear-gradient(130deg,#6151F9,#F75F9E);
     width: 100%;
     height: 950px;
+    border-bottom-right-radius: 270px;
 `
 
 export const BannerGroup = styled.div`
     width: 100%;
     height: 80%;
     background: transparent;
-    
+    display: flex;   
+    justify-content: space-between;
 
 `
 
 export const TextHeader1 = styled.h1`
     font-size: 70px;
-    font-style: bold;
     color: #FFFFFF;
 `
 
 export const TextDetail1 = styled.h2`
     font-size: 24px;
-    font-style: bold;
     color: #FFFFFF;
 `
 
@@ -46,19 +46,27 @@ export const ReadMoreButton = styled.button`
 
 `
 export const Image = styled.img`
-
+    height: 100px;
+    width: 100%;
 `
 
 export const GroupLeft = styled.div`
-    /* display: flex; */
     margin-left: 3%;
     width: 50%;
     height: 100%;
-    justify: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-style: bold;
+
 `
 
 export const GroupRight = styled.div`
-    margin-right: 2%;
+    margin-left: 2%;
     width: 50%;
     height: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-style: bold;
 `
