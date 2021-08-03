@@ -2,7 +2,7 @@ import React from 'react';
 import {TopContainerStyle,BannerGroup,ReadMoreButton,TextHeader1,TextDetail1,Image,GroupLeft,GroupRight} from '../../Styles/TopContainer.styled';
 import Header from '../Header/Header';
 import {BsArrowRight} from 'react-icons/bs';
-import PageImage from '../../image/Group 1948@2x.png'
+import PageImage from '../../image/Group_1948@2x.png'
 
 
 

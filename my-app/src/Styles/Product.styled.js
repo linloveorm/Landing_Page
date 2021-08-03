@@ -1,16 +1,17 @@
 import styled from 'styled-components';
-import BackgroundImage from '../image/Group 1995.png'
+import BackgroundImage from '../image/Group_1995.png'
 
 
 export const ProductContainerStyle = styled.div`
-    background-image:url('../image/Group 1995.png') ;
+    background-image:url(${BackgroundImage});
     width: 100%;
     height: 950px;
-    border-bottom-right-radius: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
 `
 
 export const TopGroup = styled.div`
@@ -18,7 +19,7 @@ export const TopGroup = styled.div`
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 60%;
     height: 50%;
 `
 
@@ -43,7 +44,7 @@ export const BottomGroup = styled.div`
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 70%;
+    width: 60%;
     height: 50%;
 `
 
@@ -53,7 +54,7 @@ export const CardProduct = styled.div`
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 30px;
     
 `
 
@@ -74,6 +75,6 @@ export const ImgCard = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 `
