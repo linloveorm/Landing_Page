@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import {TopContainerStyle,BannerGroup,ReadMoreButton,TextHeader1,TextDetail1,Image,GroupLeft,GroupRight} from '../../Styles/TopContainer.styled';
 import Header from '../Header/Header';
 import {BsArrowRight} from 'react-icons/bs';
