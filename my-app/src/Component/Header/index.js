@@ -1,5 +1,5 @@
 import Header from "./Header"
 
-export {
+export default {
     Header,
 }
