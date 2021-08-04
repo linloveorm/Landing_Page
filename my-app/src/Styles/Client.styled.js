@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import BackgroundImage from '../image/Group_1995.png'
 
 
-export const ProductContainerStyle = styled.div`
+export const ClientContainerStyle = styled.div`
     background-image:url(${BackgroundImage});
     width: 100%;
     height: 950px;
@@ -10,7 +10,7 @@ export const ProductContainerStyle = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-position: center;
+    background-position: inherit;
     background-repeat: no-repeat;
 `
 
@@ -20,24 +20,31 @@ export const TopGroup = styled.div`
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 40%;
+    height: 20%;
 `
 
 export const TextHeader = styled.h1`
     font-size: 70px;
     color: #000000;
-    text-align: center;
+    text-align: left;
 `
 export const TextDetail = styled.div`
-    font-size: 14px;
+    font-size: 24px;
     color: #000000;
-    text-align: center;
+    text-align: left;
 `
-export const TextDetail2 = styled.div`
+
+export const TextName = styled.div`
     font-size: 18px;
     color: #000000;
-    text-align: center;
+    text-align: left;
 `
+export const TextPosition = styled.div`
+    font-size: 14px;
+    color: #000000;
+    text-align: left;
+`
+
 
 export const BottomGroup = styled.div`
     display: flex;
@@ -45,7 +52,7 @@ export const BottomGroup = styled.div`
     flex-direction: row;
     align-items: center;
     width: 60%;
-    height: 50%;
+    height: 20%;
 `
 
 export const CardProduct = styled.div`
@@ -58,23 +65,18 @@ export const CardProduct = styled.div`
     
 `
 
-export const TextHeader2 = styled.h3`
-    font-size: 18px;
-    color: #000000;
-    text-align: center;
-`
-
-export const MoreButton = styled.button`
+export const Button = styled.button`
     background-color: transparent;
     border: none;
     margin-top: 20px;
     font-weight: bold;
+    width: 100px;
 `
 
 export const ImgCard = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
-    height: 110px;
+    width: auto;
+    height: 150px;
 `

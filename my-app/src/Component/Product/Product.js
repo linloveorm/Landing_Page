@@ -1,15 +1,15 @@
 import React from 'react'
 import {
-ProductContainerStyle,
-TopGroup,
-TextHeader,
-TextDetail,
-BottomGroup,
-CardProduct,
-TextHeader2,
-MoreButton,
-ImgCard,
-TextDetail2
+    ProductContainerStyle,
+    TopGroup,
+    TextHeader,
+    TextDetail,
+    BottomGroup,
+    CardProduct,
+    TextHeader2,
+    MoreButton,
+    ImgCard,
+    TextDetail2
 } from '../../Styles/Product.styled'
 import { BsArrowRight } from 'react-icons/bs';
 import Expand from '../../image/expand.png'

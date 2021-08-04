@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import BackgroundImage from '../image/Group_1995.png'
 
 
-export const ProductContainerStyle = styled.div`
+export const HowContainerStyle = styled.div`
     background-image:url(${BackgroundImage});
     width: 100%;
     height: 950px;
@@ -20,7 +20,7 @@ export const TopGroup = styled.div`
     flex-direction: column;
     align-items: center;
     width: 60%;
-    height: 40%;
+    height: 30%;
 `
 
 export const TextHeader = styled.h1`
@@ -29,12 +29,12 @@ export const TextHeader = styled.h1`
     text-align: center;
 `
 export const TextDetail = styled.div`
-    font-size: 14px;
+    font-size: 18px;
     color: #000000;
     text-align: center;
 `
 export const TextDetail2 = styled.div`
-    font-size: 18px;
+    font-size: 14px;
     color: #000000;
     text-align: center;
 `
@@ -75,6 +75,6 @@ export const ImgCard = styled.img`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 110px;
-    height: 110px;
+    width: auto;
+    height: 150px;
 `
