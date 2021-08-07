@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {HeaderContainer,GroupLeft,GroupRight,ButtonTransparent,ButtonWhite} from '../../Styles/Header.styled';
 import {BiSearch} from 'react-icons/bi';
+import { Device } from '../../Styles/DeviceSize.style';
 
 const Header = () =>{
    return(

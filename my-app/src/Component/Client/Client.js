@@ -13,7 +13,8 @@ import {
     Image,
     TopGroupCard,
     ButtonCard,
-    CardQuote
+    CardQuote,
+    TextGroup
 } from '../../Styles/Client.styled'
 import PersonImage from '../../image/Person_1.png'
 import { HiOutlineArrowRight, HiOutlineArrowLeft } from 'react-icons/hi';
@@ -34,22 +35,25 @@ const Client = () => {
                     <TextName>Sd Jon</TextName>
                     <TextPosition>UX Designer</TextPosition>
                 </ImageCard>
-                <Card>
-                    <TextDetail>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s.Lorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry.
-                    </TextDetail>
-                    <ButtonCard>
-                        <Button><HiOutlineArrowLeft size={20} /></Button>
-                        <Button><HiOutlineArrowRight size={20} /></Button>
-                    </ButtonCard>
-                </Card>
-                <CardQuote>
-                    <ImQuotesRight size={60}/>
-                </CardQuote>
+                <TextGroup>
+                    <Card>
+                        <TextDetail>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting
+                            industry. Lorem Ipsum has been the industry's standard dummy text
+                            ever since the 1500s.Lorem Ipsum is simply dummy text of the printing
+                            and typesetting industry. Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.
+                        </TextDetail>
+                        <ButtonCard>
+                            <Button><HiOutlineArrowLeft size={20} /></Button>
+                            <Button><HiOutlineArrowRight size={20} /></Button>
+                        </ButtonCard>
+                    </Card>
+                    <CardQuote>
+                        <ImQuotesRight size={60}/>
+                    </CardQuote>
+                </TextGroup>
+               
             </BottomGroup>
         </ClientContainerStyle>
     )

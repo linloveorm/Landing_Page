@@ -10,15 +10,15 @@ const TopContainer = () =>{
     return(
         <TopContainerStyle>
             <Header></Header>
-            <BannerGroup>
+            <BannerGroup>                
+                <GroupRight>
+                    <img src={PageImage}></img>
+                </GroupRight>
                 <GroupLeft>
                     <TextHeader1>Best Design agency for your business</TextHeader1>
                     <TextDetail1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</TextDetail1>
                     <ReadMoreButton>Read more <BsArrowRight/></ReadMoreButton>
                 </GroupLeft>
-                <GroupRight>
-                    <img src={PageImage}></img>
-                </GroupRight>
             </BannerGroup>
         </TopContainerStyle>
     )

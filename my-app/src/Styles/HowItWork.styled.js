@@ -4,77 +4,411 @@ import BackgroundImage from '../image/Group_1995.png'
 
 export const HowContainerStyle = styled.div`
     background-image:url(${BackgroundImage});
-    width: 100%;
-    height: 950px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
+    @media only screen and (max-width: 479px){
+        height: 770px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        height: 812px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        height: 800px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        height: 800px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        height: 800px;
+        width: 100%;
+    }
+    @media only screen and (min-width: 1440px){
+        height: 900px;
+        width: 100%;
+    }   
 `
 
 export const TopGroup = styled.div`
     display: flex;
-    justify-content: center;
+    /* justify-content: center;
     flex-direction: column;
-    align-items: center;
-    width: 60%;
-    height: 30%;
+    align-items: center; */
+    
+    @media only screen and (max-width: 479px){
+        margin-top: 20px;
+        flex-direction: column;
+        width: 60%;
+        height: 20%;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        /* justify-content: center; */
+        margin-top: 20px;
+        flex-direction: column;
+        width: 60%;
+        height: 20%;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        margin-top: 20px;
+        flex-direction: column;
+        width: 60%;
+        height: 30%;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        /* justify-content: center; */
+        flex-direction: column;
+        /* align-items: center; */
+        width: 60%;
+        height: 30%;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        height: 30%;
+    }
+    @media only screen and (min-width: 1440px){ 
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+            
+        width: 60%;
+        height: 40%;
+    } 
 `
 
 export const TextHeader = styled.h1`
-    font-size: 70px;
+    
     color: #000000;
     text-align: center;
+    @media only screen and (max-width: 479px){
+        font-size: 24px;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        font-size: 34px;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        font-size: 40px;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        font-size: 50px;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        font-size: 60px;
+    }
+    @media only screen and (min-width: 1440px){        
+        font-size: 70px;
+    } 
+    
 `
 export const TextDetail = styled.div`
-    font-size: 18px;
     color: #000000;
-    text-align: center;
+    @media only screen and (max-width: 479px){
+        font-size: 14px;
+        text-align: center;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        font-size: 14px;
+        text-align: center;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        font-size: 16px;
+        text-align: center;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        font-size: 16px;
+        text-align: center;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        font-size: 18px;
+        text-align: center;
+    }
+    @media only screen and (min-width: 1440px){        
+        font-size: 18px;
+        text-align: center;
+    } 
 `
 export const TextDetail2 = styled.div`
-    font-size: 14px;
+    /* font-size: 18px; */
     color: #000000;
-    text-align: center;
+    
+    @media only screen and (max-width: 479px){
+        font-size: 12px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        font-size: 12px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        font-size: 14px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        font-size: 14px;
+        text-align: left;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        text-align: center;
+        font-size: 16px;
+    }
+    @media only screen and (min-width: 1440px){     
+        text-align: center;   
+        font-size: 16px;
+    } 
 `
 
 export const BottomGroup = styled.div`
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between;
     flex-direction: row;
-    align-items: center;
-    width: 60%;
-    height: 50%;
+    align-items: center; */
+    
+    @media only screen and (max-width: 479px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 60%;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        /* justify-content: space-between; */
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 60%;
+    }
+    @media only screen and (min-width: 1440px){        
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    } 
+`
+export const textGroup = styled.div`
+    display: flex;
+    /* text-align: center; */
+    
+    @media only screen and (max-width: 479px){
+        /* justify-content: space-between; */
+        margin-left: 20px;
+        flex-direction: column;
+        width: 30%;
+        text-align: left;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 50%;
+        text-align: left;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 50%;
+        text-align: left;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        text-align: left;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        text-align: left;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 1440px){        
+        /* justify-content: space-between; */
+        flex-direction: column;
+        /* align-items: center; */
+    } 
 `
 
 export const CardProduct = styled.div`
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-left: 30px;
+    
+    @media only screen and (max-width: 479px){
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* align-items: center; */
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        justify-content: space-around;
+        margin-left: 30px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    @media only screen and (min-width: 1440px){        
+        justify-content: space-between;
+        margin-left: 30px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    } 
     
 `
 
 export const TextHeader2 = styled.h3`
-    font-size: 18px;
-    color: #000000;
-    text-align: center;
+    @media only screen and (max-width: 479px){
+        font-size: 18px;
+        color: #000000;
+        text-align: left;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        font-size: 18px;
+        color: #000000;
+        text-align: left;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        font-size: 18px;
+        color: #000000;
+        text-align: left;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        font-size: 18px;
+        color: #000000;
+        text-align: left;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        font-size: 18px;
+        color: #000000;
+        text-align: left;
+    }
+    @media only screen and (min-width: 1440px){        
+        font-size: 18px;
+        color: #000000;
+        text-align: center;
+    } 
 `
 
-export const MoreButton = styled.button`
-    background-color: transparent;
-    border: none;
-    margin-top: 20px;
-    font-weight: bold;
+export const MoreButton = styled.button`   
+    @media only screen and (max-width: 479px){
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        margin-top: 12px;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        margin-top: 14px;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        margin-top: 14px;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        background-color: transparent;
+        border: none;
+        margin-top: 18px;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        background-color: transparent;
+        border: none;
+        margin-top: 18px;
+        font-weight: bold;
+        text-align: left;
+    }
+    @media only screen and (min-width: 1440px){        
+        background-color: transparent;
+        border: none;
+        margin-top: 20px;
+        font-weight: bold;
+    } 
 `
 
 export const ImgCard = styled.img`
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 150px;
+    
+    @media only screen and (max-width: 479px){
+        width: auto;
+        height: 50px;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        width: auto;
+        height: 80px;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        width: auto;
+        height: 80px;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        width: auto;
+        height: 100px;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        width: auto;
+        height: 100px;
+    }
+    @media only screen and (min-width: 1440px){        
+        width: auto;
+        height: 150px;
+    } 
+    
 `

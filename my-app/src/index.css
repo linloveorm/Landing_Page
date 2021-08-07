@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "NunitoSans";
+    src: local("NunitoSans"),url("./Font/NunitoSans-Regular.ttf")format("truetype");
+}
+
+body{
+    font-family:"NunitoSans";
+    width:100%;
+    margin:0;
+    
+}

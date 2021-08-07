@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 import Body from './Body'
+import './Font/NunitoSans-Regular.ttf';
 
 ReactDOM.render(
   <React.StrictMode>

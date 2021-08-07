@@ -9,7 +9,8 @@ import {
     TextHeader2,
     MoreButton,
     ImgCard,
-    TextDetail2
+    TextDetail2,
+    textGroup
 } from '../../Styles/HowItWork.styled'
 import FirstImg from '../../image/First_2.png'
 import SecondImg from '../../image/Second_2.png'
@@ -26,39 +27,48 @@ const HowItWork = () => {
             <BottomGroup>
                 <CardProduct>
                     <ImgCard src={FirstImg} />
-                    <TextHeader2>
-                        Visual Site Builder
-                    </TextHeader2>
-                    <TextDetail2>
-                        Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem
-                        Ipsum the standard dummy.
-                    </TextDetail2>
-                    <MoreButton>More <BsArrowRight /></MoreButton>
+                    <textGroup>
+                        <TextHeader2>
+                            Visual Site Builder
+                        </TextHeader2>
+                        <TextDetail2>
+                            Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum the standard dummy.
+                        </TextDetail2>
+                        <MoreButton>More <BsArrowRight /></MoreButton>
+                    </textGroup>
+                    
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={SecondImg} />
-                    <TextHeader2>
-                        Visual Site Builder
-                    </TextHeader2>
-                    <TextDetail2>
-                        Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem
-                        Ipsum the standard dummy.
-                    </TextDetail2>
-                    <MoreButton>More <BsArrowRight /></MoreButton>
+                    <textGroup>
+                        <TextHeader2>
+                            Visual Site Builder
+                        </TextHeader2>
+                        <TextDetail2>
+                            Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum the standard dummy.
+                        </TextDetail2>
+                        <MoreButton>More <BsArrowRight /></MoreButton>
+                    </textGroup>
+                    
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={ThirdImg} />
-                    <TextHeader2>
-                        Visual Site Builder
-                    </TextHeader2>
-                    <TextDetail2>
-                        Lorem Ipsum is simply dummy text of the
-                        printing and typesetting industry. Lorem
-                        Ipsum the standard dummy.
-                    </TextDetail2>
-                    <MoreButton>More <BsArrowRight /></MoreButton>
+                    <textGroup>
+                        <TextHeader2>
+                            Visual Site Builder
+                        </TextHeader2>
+                        <TextDetail2>
+                            Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry. Lorem
+                            Ipsum the standard dummy.
+                        </TextDetail2>
+                        <MoreButton>More <BsArrowRight /></MoreButton>
+                    </textGroup>
+                    
                 </CardProduct>
             </BottomGroup>
         </HowContainerStyle>

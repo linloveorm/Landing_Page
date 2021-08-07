@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Device } from './DeviceSize.style';
 
 export const HeaderContainer = styled.div`
     background-color: transparent;
@@ -10,23 +11,103 @@ export const HeaderContainer = styled.div`
     
 `
 
+export const GroupButton = styled.button`
+    height: 100%;
+    background-color: transparent;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+    width: 70px;
+    text-align: center  
+
+`
+
+
+
 export const GroupLeft = styled.div`
     background: transparent;
     margin-left: 3%;
-    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
-    button{
-        background: transparent;
-        color: #FFFFFF;
-        font-size: 28px;
-        display: inline-block;
-        border: none;
-        /* width: 30%; */
-        margin-left: 10px;
-        /* text-align: center      */
+    width: 50%;
+    @media only screen and (max-width: 479px){
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 18px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
     }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 20px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 24px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 24px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 24px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
+    }
+    @media only screen and (min-width: 1440px){        
+        button{
+            background: transparent;
+            color: #FFFFFF;
+            font-size: 28px;
+            display: inline-block;
+            border: none;
+            /* width: 30%; */
+            margin-left: 10px;
+            /* text-align: center      */
+        }
+    }   
+    
+    
 
 `
 
@@ -49,16 +130,35 @@ export const ButtonTransparent = styled.button`
     align-items: center;
     justify-content: center;
     border: none;
-    font-size: 16px;
-    width: 70px;
-    text-align: center       
+    text-align: center;
+    @media only screen and (max-width: 479px){
+        font-size: 14px;
+        width: 70px;        
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        font-size: 14px;
+        width: 70px;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        font-size: 16px;
+        width: 70px;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        font-size: 16px;
+        width: 70px;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        font-size: 18px;
+        width: 70px;
+    }
+    @media only screen and (min-width: 1440px){        
+        font-size: 22px;
+        width: 100px;
+    }     
 ` 
 export const ButtonWhite = styled.button`
-    height: 40%;
     background-color: #FFFFFF;
-    font-size: 16px;
     color:#000000;
-    border-radius: 20px;
     border: transparent;
     width: 100px;
     align-items: center;
@@ -66,6 +166,37 @@ export const ButtonWhite = styled.button`
     text-align: center;
     display: flex;
     font-style: bold;
+
+    @media only screen and (max-width: 479px){
+        height: 30px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        height: 30px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        height: 40px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        height: 40px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        height: 40px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+    @media only screen and (min-width: 1440px){        
+        height: 45px;
+        font-size: 18px;
+        border-radius: 30px;
+    } 
 `
 
 
