@@ -42,7 +42,7 @@ export const TopGroup = styled.div`
     justify-content: center;
     flex-direction: row;
     align-items: center;
-    width: 90%;
+    width: 100%;
     height: 80%;
 `
 export const BottomGroup = styled.div`
@@ -333,6 +333,7 @@ export const Card = styled.div`
     height: auto;
     width: 25%;
     margin-left: 30px;
+    margin-right: 30px;
 `
 
 

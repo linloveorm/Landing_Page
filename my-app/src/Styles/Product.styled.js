@@ -206,7 +206,7 @@ export const BottomGroup = styled.div`
         height: 50%;
     } 
 `
-export const textGroup = styled.div`
+export const TextGroup = styled.div`
     display: flex;
     /* text-align: center; */
     @media only screen and (max-width: 479px){
@@ -245,7 +245,7 @@ export const CardProduct = styled.div`
     display: flex;
     
     text-align: center;
-    margin-left: 30px;
+    padding-left: 20px;
     @media only screen and (max-width: 479px){
         /* justify-content: space-between; */
         flex-direction: row;

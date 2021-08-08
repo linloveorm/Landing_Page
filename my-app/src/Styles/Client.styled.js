@@ -11,32 +11,32 @@ export const ClientContainerStyle = styled.div`
     background-position: center;
     background-repeat: repeat-x;
     @media only screen and (max-width: 479px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 770px;
         width: 100%;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 812px;
         width: 100%;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 800px;
         width: 100%;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 800px;
         width: 100%;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 800px;
         width: 100%;
     }
     @media only screen and (min-width: 1440px){
-        padding-left: 30px;
+        /* padding-left: 30px; */
         height: 900px;
         width: 100%;
     }   
@@ -49,9 +49,9 @@ export const TopGroup = styled.div`
     justify-content: left;
     flex-direction: row;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 20%;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 `
 export const TopGroupCard = styled.div`
     display: flex;
@@ -159,52 +159,53 @@ export const TextPosition = styled.div`
 export const BottomGroup = styled.div`
     /* margin-left:200px; */
     display: flex; 
+
     
     
     @media only screen and (max-width: 479px){
         width: 100%;
-        height: 80%;   
+        height: 70%;   
         /* justify-content: space-around; */
         flex-direction: column;
         align-items: center;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         width: 100%;
-        height: 80%;   
+        height: 70%;   
         /* justify-content: space-around; */
         flex-direction: column;
         align-items: center;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         width: 100%;
-        height: 80%;    
+        height: 780%;    
         /* justify-content: space-around; */
         flex-direction: column;
         align-items: center;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
         width: 100%;
-        height: 80%;    
+        height: 70%;    
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
         width: 100%;
-        height: 80%;    
+        height: 70%;    
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     @media only screen and (min-width: 1440px){    
         width: 100%;
-        height: 80%;    
+        height: 70%;    
         justify-content: space-around;
         flex-direction: row;
         align-items: center;
-        margin-left: 100px;
+        /* margin-left: 100px; */
         
     } 
 `
@@ -356,13 +357,16 @@ export const ImageCard = styled.div`
         justify-items: center;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
+        margin-left: 30px;
         height: 80%;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
+        margin-left: 50px;
         height: 80%;
     }
     @media only screen and (min-width: 1440px){        
         /* width: 40%; */
+        margin-left: 50px;
         height: 80%;
     } 
     
@@ -373,7 +377,7 @@ export const CardQuote = styled.div`
     /* flex-direction: column; */
     align-items: top;
     text-align: right;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     width: 20%;
     height: 100%;
 `

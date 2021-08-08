@@ -212,13 +212,13 @@ export const BottomGroup = styled.div`
         height: 50%;
     } 
 `
-export const textGroup = styled.div`
+export const TextGroup = styled.div`
     display: flex;
     /* text-align: center; */
     
     @media only screen and (max-width: 479px){
         /* justify-content: space-between; */
-        margin-left: 20px;
+        /* margin-left: 20px; */
         flex-direction: column;
         width: 30%;
         text-align: left;
@@ -288,17 +288,17 @@ export const CardProduct = styled.div`
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
         justify-content: space-around;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 70%;
     }
     @media only screen and (min-width: 1440px){        
         justify-content: space-between;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 70%;
     } 
     
 `

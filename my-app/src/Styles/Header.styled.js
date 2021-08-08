@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Device } from './DeviceSize.style';
 
 export const HeaderContainer = styled.div`
     background-color: transparent;

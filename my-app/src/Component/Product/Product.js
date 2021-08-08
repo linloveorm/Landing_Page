@@ -10,7 +10,7 @@ import {
     MoreButton,
     ImgCard,
     TextDetail2,
-    textGroup
+    TextGroup
 } from '../../Styles/Product.styled'
 import { BsArrowRight } from 'react-icons/bs';
 import Expand from '../../image/expand.png'
@@ -29,45 +29,45 @@ const Product = () => {
             <BottomGroup>
                 <CardProduct>
                     <ImgCard src={Expand} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Expand Your Reach
                         </TextHeader2>
                         <TextDetail>Lorem Ipsum is simply dummy the printing and typesetting and Lorem Ipsum has been the.</TextDetail>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>                    
+                    </TextGroup>                    
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={Higher} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Higher Annualized Growth
                         </TextHeader2>
                         <TextDetail>Lorem Ipsum is simply dummy the printing and typesetting and Lorem Ipsum has been the.</TextDetail>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={Book} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Book Your Provider
                         </TextHeader2>
                         <TextDetail>Lorem Ipsum is simply dummy the printing and typesetting and Lorem Ipsum has been the.</TextDetail>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={Secure} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Secure multi-usable
                         </TextHeader2>
                         <TextDetail>Lorem Ipsum is simply dummy the printing and typesetting and Lorem Ipsum has been the.</TextDetail>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
             </BottomGroup>

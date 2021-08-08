@@ -10,7 +10,7 @@ import {
     MoreButton,
     ImgCard,
     TextDetail2,
-    textGroup
+    TextGroup
 } from '../../Styles/HowItWork.styled'
 import FirstImg from '../../image/First_2.png'
 import SecondImg from '../../image/Second_2.png'
@@ -27,7 +27,7 @@ const HowItWork = () => {
             <BottomGroup>
                 <CardProduct>
                     <ImgCard src={FirstImg} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
                         </TextHeader2>
@@ -37,12 +37,12 @@ const HowItWork = () => {
                             Ipsum the standard dummy.
                         </TextDetail2>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={SecondImg} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
                         </TextHeader2>
@@ -52,12 +52,12 @@ const HowItWork = () => {
                             Ipsum the standard dummy.
                         </TextDetail2>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
                 <CardProduct>
                     <ImgCard src={ThirdImg} />
-                    <textGroup>
+                    <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
                         </TextHeader2>
@@ -67,7 +67,7 @@ const HowItWork = () => {
                             Ipsum the standard dummy.
                         </TextDetail2>
                         <MoreButton>More <BsArrowRight /></MoreButton>
-                    </textGroup>
+                    </TextGroup>
                     
                 </CardProduct>
             </BottomGroup>

@@ -3,9 +3,21 @@
     src: local("NunitoSans"),url("./Font/NunitoSans-Regular.ttf")format("truetype");
 }
 
-body{
+body,html{
     font-family:"NunitoSans";
-    width:100%;
+    /* width:100%;
+    height:100%; */
     margin:0;
+    padding:0;
+    box-sizing: border-box;    
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    margin:0;
+    padding:0;
+    position: relative; 
     
 }

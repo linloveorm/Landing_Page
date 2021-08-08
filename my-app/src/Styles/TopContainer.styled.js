@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Device } from './DeviceSize.style';
 
 export const TopContainerStyle = styled.div`
     background: linear-gradient(130deg,#6151F9,#F75F9E);
