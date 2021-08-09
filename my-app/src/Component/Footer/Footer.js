@@ -9,7 +9,8 @@ import {
     Email,
     SubButton,
     Card,
-    TextDetail
+    TextDetail,
+    LogoCard
 
 } from '../../Styles/Footer.style'
 import { CgCopyright } from "react-icons/cg";
@@ -20,12 +21,12 @@ const Footer = () =>{
     return(
         <FooterContainerStyle>
             <TopGroup>
-                <Card>
+                <LogoCard>
                     <TextHeader>LOGO.CO</TextHeader>
                     <TextDetail>Adress: 135 Barnard St. Brooklyn, NY 10036, United States</TextDetail>
                     <TextDetail>Phone: 1-400-123-1234</TextDetail>
                     <TextDetail>Email: example@creativelab.com</TextDetail>
-                </Card>
+                </LogoCard>
                 <Card>
                     <TextHeader>Services</TextHeader>
                     <TextButton>Apps Developer</TextButton>

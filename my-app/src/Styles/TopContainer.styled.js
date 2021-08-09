@@ -169,7 +169,7 @@ export const Image = styled.img`
 `
 
 export const GroupLeft = styled.div`
-    margin-left: 3%;
+    /* margin-left: 3%; */
     
     display: flex;
     align-self: center;
@@ -177,18 +177,18 @@ export const GroupLeft = styled.div`
     font-style: bold;
     @media only screen and (max-width: 479px){
         margin-top: 30px;
-        width: 100%;
+        width: 80%;
         height: 50%;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         margin-top: 30px;
-        width: 100%;
+        width: 80%;
         height: 50%;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         justify-content: center;
         margin-top: 30px;
-        width: 100%;
+        width: 80%;
         height: 50%;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
@@ -210,7 +210,7 @@ export const GroupLeft = styled.div`
 `
 
 export const GroupRight = styled.div`
-    margin-left: 2%;
+    /* margin-left: 2%; */
     /* justify-content: center; */
     align-self: center;
     display: flex;
@@ -219,17 +219,17 @@ export const GroupRight = styled.div`
 
     @media only screen and (max-width: 479px){
         margin-top: 30px;        
-        width: 100%; 
+        width: 80%; 
         height: 40%;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         margin-top: 30px;        
-        width: 100%; 
+        width: 80%; 
         height: 40%;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         /* margin-top: 30px;         */
-        width: 90%; 
+        width: 80%; 
         height: 40%;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){

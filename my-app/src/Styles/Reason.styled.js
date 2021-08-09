@@ -123,32 +123,32 @@ export const MainContainer = styled.div`
 
 export const GroupLeft = styled.div`
     @media only screen and (max-width: 479px){
-        margin-left: 3%;
-        width: 100%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 100%;       
         display: flex;
         flex-direction: row;
         font-style: bold;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        margin-left: 3%;
-        width: 100%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 100%;       
         display: flex;
         flex-direction: row;
         font-style: bold;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        margin-left: 3%;
-        width: 100%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 100%;       
         display: flex;
         flex-direction: row;
         font-style: bold;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
-        margin-left: 3%;
-        width: 100%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 70%;
         justify-content: center;
         align-items: center;
@@ -157,8 +157,8 @@ export const GroupLeft = styled.div`
         font-style: bold;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
-        margin-left: 3%;
-        width: 50%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 70%;
         justify-content: center;
         align-items: center;
@@ -167,8 +167,8 @@ export const GroupLeft = styled.div`
         font-style: bold;
     }
     @media only screen and (min-width: 1440px){        
-        margin-left: 3%;
-        width: 50%;
+        /* margin-left: 3%; */
+        width: 90%;
         height: 70%;
         justify-content: center;
         align-items: center;
@@ -181,7 +181,7 @@ export const GroupLeft = styled.div`
 `
 export const GroupRight = styled.div`
     @media only screen and (max-width: 479px){
-        margin-left: 2%;
+        padding-left: 2%;
         width: 100%;
         height: 70%;
         justify-content: center;
@@ -191,7 +191,7 @@ export const GroupRight = styled.div`
         align-items: center;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        margin-left: 2%;
+        padding-left: 2%;
         width: 100%;
         height: 70%;
         justify-content: center;
@@ -201,7 +201,7 @@ export const GroupRight = styled.div`
         align-items: center;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        margin-left: 2%;
+        padding-left: 2%;
         width:100%;
         height: 70%;
         justify-content: center;
@@ -211,7 +211,7 @@ export const GroupRight = styled.div`
         align-items: center;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
-        margin-left: 2%;
+        padding-left: 2%;
         width: 70%;
         height: 70%;
         justify-content: center;
@@ -221,7 +221,7 @@ export const GroupRight = styled.div`
         align-items: center;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
-        margin-left: 2%;
+        padding-left: 2%;
         width: 70%;
         height: 70%;
         justify-content: center;
@@ -231,7 +231,7 @@ export const GroupRight = styled.div`
         align-items: center;
     }
     @media only screen and (min-width: 1440px){        
-        margin-left: 2%;
+        padding-left: 2%;
         width: 70%;
         height: 70%;
         justify-content: center;

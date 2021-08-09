@@ -69,7 +69,7 @@ export const TextHeader = styled.h1`
         margin-bottom: 20px;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        font-size: 18px;
+        font-size: 16px;
         color: #FFFFFF;
         text-align: left;
         margin-bottom: 20px;
@@ -100,7 +100,7 @@ export const TextHeader = styled.h1`
 export const TextButton = styled.button`
     @media only screen and (max-width: 479px){
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 9px;
         background-color: transparent;
         border: none;
         color: #FFFFFF;
@@ -108,7 +108,7 @@ export const TextButton = styled.button`
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 11px;
         background-color: transparent;
         border: none;
         color: #FFFFFF;
@@ -116,7 +116,7 @@ export const TextButton = styled.button`
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         margin-bottom: 10px;
-        font-size: 16px;
+        font-size: 11px;
         background-color: transparent;
         border: none;
         color: #FFFFFF;
@@ -156,19 +156,19 @@ export const TextDetail= styled.div`
     text-align: left;
     @media only screen and (max-width: 479px){
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 8px;
         color: #FFFFFF;
         text-align: left;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 11px;
         color: #FFFFFF;
         text-align: left;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         margin-bottom: 10px;
-        font-size: 16px;
+        font-size: 11px;
         color: #FFFFFF;
         text-align: left;
     }
@@ -292,17 +292,17 @@ export const SubButton = styled.button`
     color: #FFFFFF;
     border-color: transparent;
     @media only screen and (max-width: 479px){
-        width: 30%;
+        width: 50%;
         height: 20px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        width: 30%;
+        width: 50%;
         height: 20px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        width: 30%;
+        width: 50%;
         height: 20px;
         border-radius: 20px;
     }
@@ -331,10 +331,20 @@ export const Card = styled.div`
     justify-content: flex-start;
     align-items: left;
     height: auto;
-    width: 25%;
-    margin-left: 30px;
-    margin-right: 30px;
+    width: 20%;
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
 `
 
+export const LogoCard = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: auto;
+    width: 30%;
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+`
 
 

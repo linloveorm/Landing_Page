@@ -28,20 +28,20 @@ export const GroupButton = styled.button`
 
 export const GroupLeft = styled.div`
     background: transparent;
-    margin-left: 3%;
+    /* margin-left: 3%; */
     height: 100%;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 40%;
     @media only screen and (max-width: 479px){
         button{
             background: transparent;
             color: #FFFFFF;
-            font-size: 18px;
+            font-size: 16px;
             display: inline-block;
             border: none;
             /* width: 30%; */
-            margin-left: 10px;
+            /* margin-left: 10px; */
             /* text-align: center      */
         }
     }
@@ -49,11 +49,11 @@ export const GroupLeft = styled.div`
         button{
             background: transparent;
             color: #FFFFFF;
-            font-size: 20px;
+            font-size: 18px;
             display: inline-block;
             border: none;
             /* width: 30%; */
-            margin-left: 10px;
+            /* margin-left: 10px; */
             /* text-align: center      */
         }
     }
@@ -65,7 +65,7 @@ export const GroupLeft = styled.div`
             display: inline-block;
             border: none;
             /* width: 30%; */
-            margin-left: 10px;
+            /* margin-left: 10px; */
             /* text-align: center      */
         }
     }
@@ -77,7 +77,7 @@ export const GroupLeft = styled.div`
             display: inline-block;
             border: none;
             /* width: 30%; */
-            margin-left: 10px;
+            /* margin-left: 10px; */
             /* text-align: center      */
         }
     }
@@ -111,10 +111,10 @@ export const GroupLeft = styled.div`
 `
 
 export const GroupRight = styled.div`
-    margin-right: 3%;
+    /* padding-right: 3%; */
     background: transparent;
     display: flex;
-    width: 50%;
+    width: 45%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -197,6 +197,24 @@ export const ButtonWhite = styled.button`
         border-radius: 30px;
     } 
 `
+
+export const DropdownBtn = styled.select`
+    height: 50px;
+    background: transparent;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-align: center;
+    width: 90px;
+    outline: none;   
+    font-size: 16px;
+    box-shadow: none;
+    /* -webkit-appearance: none; */
+    /* -moz-appearance: none; */
+    
+`
+
 
 
 

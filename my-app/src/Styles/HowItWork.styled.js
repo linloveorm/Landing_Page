@@ -90,7 +90,7 @@ export const TextHeader = styled.h1`
     color: #000000;
     text-align: center;
     @media only screen and (max-width: 479px){
-        font-size: 24px;
+        font-size: 18px;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         font-size: 34px;
@@ -112,7 +112,7 @@ export const TextHeader = styled.h1`
 export const TextDetail = styled.div`
     color: #000000;
     @media only screen and (max-width: 479px){
-        font-size: 14px;
+        font-size: 11px;
         text-align: center;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
@@ -141,7 +141,7 @@ export const TextDetail2 = styled.div`
     color: #000000;
     
     @media only screen and (max-width: 479px){
-        font-size: 12px;
+        font-size: 10px;
         text-align: left;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
@@ -220,7 +220,7 @@ export const TextGroup = styled.div`
         /* justify-content: space-between; */
         /* margin-left: 20px; */
         flex-direction: column;
-        width: 30%;
+        width: 50%;
         text-align: left;
         /* align-items: center; */
     }
@@ -305,12 +305,12 @@ export const CardProduct = styled.div`
 
 export const TextHeader2 = styled.h3`
     @media only screen and (max-width: 479px){
-        font-size: 18px;
+        font-size: 14px;
         color: #000000;
         text-align: left;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        font-size: 18px;
+        font-size: 16px;
         color: #000000;
         text-align: left;
     }
@@ -341,6 +341,7 @@ export const MoreButton = styled.button`
         width: 100%;
         background-color: transparent;
         border: none;
+        font-size: 10px;
         margin-top: 12px;
         font-weight: bold;
         text-align: left;
@@ -349,6 +350,7 @@ export const MoreButton = styled.button`
         width: 100%;
         background-color: transparent;
         border: none;
+        font-size: 10px;
         margin-top: 14px;
         font-weight: bold;
         text-align: left;
@@ -357,6 +359,7 @@ export const MoreButton = styled.button`
         width: 100%;
         background-color: transparent;
         border: none;
+        font-size: 14px;
         margin-top: 14px;
         font-weight: bold;
         text-align: left;
@@ -364,6 +367,7 @@ export const MoreButton = styled.button`
     @media only screen and (min-width: 769px) and (max-width: 992px){
         background-color: transparent;
         border: none;
+        font-size: 16px;
         margin-top: 18px;
         font-weight: bold;
         text-align: left;
@@ -371,12 +375,14 @@ export const MoreButton = styled.button`
     @media only screen and (min-width: 993px) and (max-width: 1439px){
         background-color: transparent;
         border: none;
+        font-size: 18px;
         margin-top: 18px;
         font-weight: bold;
         text-align: left;
     }
     @media only screen and (min-width: 1440px){        
         background-color: transparent;
+        font-size: 20px;
         border: none;
         margin-top: 20px;
         font-weight: bold;
@@ -385,22 +391,19 @@ export const MoreButton = styled.button`
 
 export const ImgCard = styled.img`
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
     @media only screen and (max-width: 479px){
-        width: auto;
-        height: 50px;
+        width: 80%;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        width: auto;
-        height: 80px;
+        width: 80%;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
-        width: auto;
-        height: 80px;
+        width: 80%;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
-        width: auto;
-        height: 100px;
+        width: 80%;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
         width: auto;
@@ -409,6 +412,37 @@ export const ImgCard = styled.img`
     @media only screen and (min-width: 1440px){        
         width: auto;
         height: 150px;
+    } 
+    
+`
+
+export const ImgGroupCard = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media only screen and (max-width: 479px){
+        width: 40%;
+        height: auto;
+    }
+    @media only screen and (min-width: 480px) and (max-width: 576px){
+        width: 40%;
+        height: auto;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px){
+        width: 30%;
+        height: auto;
+    }
+    @media only screen and (min-width: 769px) and (max-width: 992px){
+        width: 30%;
+        height: auto;
+    }
+    @media only screen and (min-width: 993px) and (max-width: 1439px){
+        width: 30%;
+        height: auto;
+    }
+    @media only screen and (min-width: 1440px){        
+        width: 30%;
+        height: auto;
     } 
     
 `

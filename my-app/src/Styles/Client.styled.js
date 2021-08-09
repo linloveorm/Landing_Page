@@ -65,7 +65,7 @@ export const TopGroupCard = styled.div`
 
 export const TextHeader = styled.h1`
     @media only screen and (max-width: 479px){
-        font-size: 28px;
+        font-size: 22px;
         color: #000000;
         text-align: left;
         margin-right: 10px;

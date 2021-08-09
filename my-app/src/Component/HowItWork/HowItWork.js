@@ -10,7 +10,8 @@ import {
     MoreButton,
     ImgCard,
     TextDetail2,
-    TextGroup
+    TextGroup,
+    ImgGroupCard
 } from '../../Styles/HowItWork.styled'
 import FirstImg from '../../image/First_2.png'
 import SecondImg from '../../image/Second_2.png'
@@ -26,7 +27,10 @@ const HowItWork = () => {
             </TopGroup>
             <BottomGroup>
                 <CardProduct>
-                    <ImgCard src={FirstImg} />
+                    <ImgGroupCard>
+                        <ImgCard src={FirstImg} />
+                    </ImgGroupCard>
+                    
                     <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
@@ -41,7 +45,10 @@ const HowItWork = () => {
                     
                 </CardProduct>
                 <CardProduct>
-                    <ImgCard src={SecondImg} />
+                    <ImgGroupCard>
+                        <ImgCard src={SecondImg} />
+                    </ImgGroupCard>
+                    
                     <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
@@ -56,7 +63,9 @@ const HowItWork = () => {
                     
                 </CardProduct>
                 <CardProduct>
-                    <ImgCard src={ThirdImg} />
+                    <ImgGroupCard>
+                        <ImgCard src={ThirdImg} />
+                    </ImgGroupCard>
                     <TextGroup>
                         <TextHeader2>
                             Visual Site Builder
