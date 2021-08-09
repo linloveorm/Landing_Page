@@ -237,6 +237,7 @@ export const Email = styled.input`
         margin-bottom: 20px;
         padding-left: 15px;
         margin-top: 10px;
+        font-size: 10px;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
         width: 90%;
@@ -246,6 +247,7 @@ export const Email = styled.input`
         margin-bottom: 20px;
         padding-left: 15px;
         margin-top: 10px;
+        font-size: 12px;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         width: 90%;
@@ -255,6 +257,7 @@ export const Email = styled.input`
         margin-bottom: 20px;
         padding-left: 15px;
         margin-top: 10px;
+        font-size: 14px;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
         width: 90%;
@@ -292,32 +295,38 @@ export const SubButton = styled.button`
     color: #FFFFFF;
     border-color: transparent;
     @media only screen and (max-width: 479px){
-        width: 50%;
+        width: 90%;
         height: 20px;
+        font-size: 10px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 480px) and (max-width: 576px){
-        width: 50%;
+        width: 90%;
         height: 20px;
+        font-size: 12px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 577px) and (max-width: 768px){
         width: 50%;
+        font-size: 12px;
         height: 20px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 769px) and (max-width: 992px){
         width: 30%;
+        font-size: 14px;
         height: 20px;
         border-radius: 20px;
     }
     @media only screen and (min-width: 993px) and (max-width: 1439px){
         width: 30%;
+        font-size: 18px;
         height: 30px;
         border-radius: 30px;
     }
     @media only screen and (min-width: 1440px){        
         width: 30%;
+        font-size: 18px;
         height: 30px;
         border-radius: 30px;
     } 
